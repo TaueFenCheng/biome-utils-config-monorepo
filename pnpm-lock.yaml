@@ -31,7 +31,7 @@ importers:
       '@types/node':
         specifier: ^22.8.1
         version: 22.13.9
-      biome-config-utils:
+      base-biome-config:
         specifier: workspace:*
         version: link:../biome-config-utils
       typescript:
