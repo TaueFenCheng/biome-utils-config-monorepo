@@ -1,5 +1,6 @@
 packages:
   - packages/*
+  - projects/*
 
 # 定义目录和依赖版本号
 catalog:
