@@ -1,5 +1,5 @@
 {
-  "name": "biome-config-utils",
+  "name": "biome-config",
   "version": "0.0.1",
   "type": "module",
   "exports": {
@@ -27,6 +27,6 @@
     "typescript": "^5.8.2"
   },
   "description": "## Setup",
-  "author": "",
+  "author": "tangtaue",
   "license": "ISC"
 }
