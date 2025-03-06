@@ -15,10 +15,10 @@ export default defineConfig({
     },
   ],
   output: {
-    copy: {
-      patterns:[
-        "./biome.json",
-      ]
-    },
+    // copy: {
+      // patterns:[
+        // "./biome.json",
+      // ]
+    // },
   },
 });
