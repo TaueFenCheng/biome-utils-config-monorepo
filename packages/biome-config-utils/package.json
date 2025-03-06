@@ -1,0 +1,32 @@
+{
+  "name": "biome-config-utils",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./biome": "./biome.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.5.3",
+    "@types/node": "^22.8.1",
+    "typescript": "^5.8.2"
+  },
+  "description": "## Setup",
+  "author": "",
+  "license": "ISC"
+}

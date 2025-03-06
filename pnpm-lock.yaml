@@ -1,14 +1,14 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: true
+  autoInstallPeers: false
   excludeLinksFromLockfile: false
 
 importers:
 
   .: {}
 
-  packages/biome-lint-config:
+  packages/biome-config-utils:
     devDependencies:
       '@rslib/core':
         specifier: ^0.5.3
@@ -25,15 +25,15 @@ importers:
       '@biomejs/biome':
         specifier: ^1.9.4
         version: 1.9.4
-      '@org/biome-config-utils':
-        specifier: workspace:*
-        version: link:../biome-lint-config
       '@rslib/core':
         specifier: ^0.5.3
         version: 0.5.3(typescript@5.8.2)
       '@types/node':
         specifier: ^22.8.1
         version: 22.13.9
+      biome-config-utils:
+        specifier: workspace:*
+        version: link:../biome-config-utils
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
