@@ -1,0 +1,3 @@
+{
+  "extends": ["@org/biome-config-utils/biome"]
+}
