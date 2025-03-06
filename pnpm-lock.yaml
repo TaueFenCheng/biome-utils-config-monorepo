@@ -41,6 +41,16 @@ importers:
         specifier: ^3.0.7
         version: 3.0.7(@types/node@22.13.9)(jiti@2.4.2)
 
+  projects/rspack_plugins:
+    dependencies:
+      '@rspack/core':
+        specifier: ^1.2.7
+        version: 1.2.7(@swc/helpers@0.5.15)
+    devDependencies:
+      typescript:
+        specifier: ^5.8.2
+        version: 5.8.2
+
 packages:
 
   '@ast-grep/napi-darwin-arm64@0.35.0':
