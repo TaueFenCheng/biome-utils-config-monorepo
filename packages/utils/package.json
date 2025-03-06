@@ -24,7 +24,7 @@
   "dependencies": {},
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "base-biome-config": "workspace:*",
+    "base-biome-config": "0.0.1",
     "@rslib/core": "^0.5.3",
     "@types/node": "^22.8.1",
     "typescript": "^5.8.2",
