@@ -1,5 +1,5 @@
 {
-  "name": "rslib-node-dual-ts",
+  "name": "utils-react-hooks",
   "version": "1.0.0",
   "type": "module",
   "exports": {
@@ -12,7 +12,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rslib build",
     "check": "biome check --write",
@@ -21,14 +23,18 @@
     "test": "vitest run",
     "lint": "biome format ./src --write"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.4",
+    "react": "catalog:react18",
+    "react-dom": "catalog:react18"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "base-biome-config": "workspace:*",
     "@rslib/core": "^0.5.3",
     "@types/node": "^22.8.1",
+    "base-biome-config": "workspace:*",
     "typescript": "^5.8.2",
     "vitest": "^3.0.7"
-  },
-  "private": true
+  }
 }

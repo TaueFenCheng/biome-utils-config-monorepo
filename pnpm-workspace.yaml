@@ -3,5 +3,13 @@ packages:
   - projects/*
 
 # 定义目录和依赖版本号
-catalog:
-  react: ^18.3.1
+catalogs:
+  # Can be referenced through "catalog:react17"
+  react17:
+    react: ^17.0.2
+    react-dom: ^17.0.2
+
+  # Can be referenced through "catalog:react18"
+  react18:
+    react: ^18.2.0
+    react-dom: ^18.2.0
