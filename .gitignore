@@ -1,1 +1,4 @@
 /node_modules
+/projects/rspack_loader/node_modules
+/projects/rspack_plugins/node_modules
+/dist
