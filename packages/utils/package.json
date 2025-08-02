@@ -1,7 +1,8 @@
 {
-  "name": "utils-react-hooks",
+  "name": "utils-and-hooks",
   "version": "0.0.1",
   "type": "module",
+  "maintainers": ["tangtaue"],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
