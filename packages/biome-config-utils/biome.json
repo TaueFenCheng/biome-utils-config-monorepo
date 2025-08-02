@@ -6,16 +6,15 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": [
-      "**/dist/**",
-      "**/build/**",
-      "node_modules",
-      "**/node_modules/**"
+    "includes": [
+      "**",
+      "!**/dist/**",
+      "!**/build/**",
+      "!**/node_modules",
+      "!**/node_modules/**"
     ]
   },
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": true,
     "rules": {
@@ -56,7 +55,15 @@
       "style": {
         "noNonNullAssertion": "off",
         "noUselessElse": "off",
-        "noUnusedTemplateLiteral": "off"
+        "noUnusedTemplateLiteral": "off",
+        "noParameterAssign": "error",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSelfClosingElements": "error",
+        "useSingleVarDeclarator": "error",
+        "useNumberNamespace": "error",
+        "noInferrableTypes": "error"
       }
     }
   },
@@ -75,9 +82,9 @@
       "semicolons": "asNeeded"
     }
   },
-  "json":{
-    "formatter":{
-      "enabled":true
+  "json": {
+    "formatter": {
+      "enabled": true
     }
   }
 }

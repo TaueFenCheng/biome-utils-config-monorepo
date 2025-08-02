@@ -1,7 +1,7 @@
 import React, { type FunctionComponent } from 'react'
-import { type RootType, render as copyRender } from './ReactDomRender'
+import { render as copyRender, type RootType } from './ReactDomRender'
 
-export class ReactDOMRender<P = {}> {
+export class ReactDOMRender<P = Record<string, any>> {
   root: RootType | undefined
 
   app: FunctionComponent<P>
