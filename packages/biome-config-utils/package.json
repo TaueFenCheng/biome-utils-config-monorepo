@@ -1,6 +1,6 @@
 {
   "name": "base-biome-config",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "maintainers": [
     "tangtaue"
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.2",
-    "@rslib/core": "0.11.1",
+    "@rslib/core": "0.17.0",
     "@types/node": "^22.8.1",
     "typescript": "^5.8.2"
   },
