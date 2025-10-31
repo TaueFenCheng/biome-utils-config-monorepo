@@ -1,6 +1,10 @@
 import { defineConfig } from "@rslib/core";
+import { pluginPublint } from "rsbuild-plugin-publint";
 
 export default defineConfig({
+  plugins: [
+    pluginPublint(),
+  ],
   source: {
     entry: {
       index: "src/index.ts",
@@ -10,7 +14,7 @@ export default defineConfig({
     {
       format: "esm",
       syntax: "es2021",
-      dts: false,
+      dts: true,
       bundle: false,
     },
   ],

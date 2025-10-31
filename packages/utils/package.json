@@ -2,7 +2,9 @@
   "name": "utils-and-hooks",
   "version": "0.0.1",
   "type": "module",
-  "maintainers": ["tangtaue"],
+  "maintainers": [
+    "tangtaue"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -28,11 +30,12 @@
     "@types/react": "^18.0.10",
     "@types/react-dom": "^18.0.4",
     "react": "catalog:react18",
-    "react-dom": "catalog:react18"
+    "react-dom": "catalog:react18",
+    "rsbuild-plugin-publint": "^0.3.3"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
-    "@rslib/core": "^0.5.3",
+    "@rslib/core": "0.17.0",
     "@types/node": "^22.8.1",
     "base-biome-config": "workspace:*",
     "typescript": "^5.8.2",

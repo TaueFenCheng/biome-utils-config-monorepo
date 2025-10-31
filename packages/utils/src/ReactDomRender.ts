@@ -1,6 +1,7 @@
 import type { ReactElement } from 'react'
 import ReactDOM from 'react-dom'
 import { isObject } from './is'
+let createRoot: CreateRootFnType
 
 /**
  * @description 兼容react 18 和 非react18 版本 render
@@ -46,14 +47,14 @@ const updateUsingClientEntryPoint = (skipWarning?: boolean) => {
   }
 }
 
-let createRoot: CreateRootFnType
 try {
   createRoot = CopyReactDOM.createRoot
 } catch (_) {
   //
 }
 
-if (isReact18 && createRoot) {
+// if (isReact18 && createRoot) {
+if (isReact18) {
   copyRender = (app: ReactElement, container: Element | DocumentFragment) => {
     updateUsingClientEntryPoint(true)
     const root = createRoot(container)

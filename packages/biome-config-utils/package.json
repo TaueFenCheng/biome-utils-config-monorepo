@@ -36,5 +36,8 @@
   },
   "description": "biome base config",
   "author": "tangtaue",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "rsbuild-plugin-publint": "^0.3.3"
+  }
 }
