@@ -1,6 +1,7 @@
 import type { ReactElement } from 'react'
 import ReactDOM from 'react-dom'
 import { isObject } from './is'
+
 let createRoot: CreateRootFnType
 
 /**

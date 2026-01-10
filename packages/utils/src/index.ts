@@ -1,2 +1,2 @@
 export * from './is'
-export * from './ReactDomRender'
+export * from './ReactDomRender/index'

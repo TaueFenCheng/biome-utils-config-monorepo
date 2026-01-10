@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest'
-import { squared } from '../src/index'
+import { render } from '../src/index'
 
-test('squared', () => {
-  expect(squared(2)).toBe(4)
-  expect(squared(12)).toBe(144)
+test('render', () => {
+  expect(render).toBeDefined()
+  expect(typeof render).toBe('function')
 })

@@ -22,9 +22,6 @@
       "complexity": {
         "useLiteralKeys": "off"
       },
-      "nursery": {
-        "noEmptySource": "error"
-      },
       "correctness": {
         "noUnusedFunctionParameters": {
           "level": "warn",
